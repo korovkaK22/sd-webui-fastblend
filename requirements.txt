@@ -1,0 +1,16 @@
+# FastBlend dependencies
+gradio>=4.0.0
+numpy>=1.24.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8
+opencv-python-headless>=4.8.0
+tqdm>=4.65.0
+pytz>=2023.3
+
+# CUDA support (requires NVIDIA GPU)
+# Note: torch provides CUDA libraries needed by cupy
+cupy-cuda12x>=12.0.0
+
+# PyTorch with CUDA 12.1 (provides nvrtc DLLs)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
